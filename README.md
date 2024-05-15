@@ -4,6 +4,7 @@ This Java code utilizes dynamic programming to solve the "Change Making Problem"
 
 Pseudo: 
 
+
 Function minCoins(coins[], amount):
     // Create an array to store the minimum number of coins for each amount
     dp[0...amount]
