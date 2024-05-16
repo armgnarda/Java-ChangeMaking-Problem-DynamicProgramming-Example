@@ -2,10 +2,10 @@
 
 This Java code utilizes dynamic programming to solve the "Change Making Problem". It aims to minimize the number of coins or banknotes used to reach a specified sum using given denominations. Through nested loops, it calculates the minimum number of coins for each amount and stores them in a dynamic programming array. If the desired sum cannot be achieved, it returns -1. Its usage is straightforward: the minCoins function calculates the minimum number of coins for a given amount. This code provides a solution to the problem and can be adapted for various currencies or target amounts.
 
-Pseudo: 
+Pseudo code: 
 
 
-Function minCoins(coins[], amount):
+    Function minCoins(coins[], amount):
     // Create an array to store the minimum number of coins for each amount
     dp[0...amount]
 
